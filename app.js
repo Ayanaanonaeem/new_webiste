@@ -32,6 +32,6 @@ blue.addEventListener("click",()=>{
     setTimeout(() => {
         main.style.display="none"
         center.style.display="flex"
-    }, 13000);
+    }, 10000);
     
 })

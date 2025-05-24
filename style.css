@@ -64,7 +64,7 @@
 }
 #blue{
     background-color: black;
-    width: 10%;
+    width: 20vh;
     height: 50px;
     color: white;
     border-radius: 20px;
@@ -116,8 +116,8 @@
 
 
 .one {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -125,8 +125,8 @@
   animation-duration: 4s;
 }
 .six {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -134,8 +134,8 @@
   animation-duration: 11s;
 }
 .seven {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -143,8 +143,8 @@
   animation-duration: 3s;
 }
 .eight {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -152,8 +152,8 @@
   animation-duration: 2s;
 }
 .nine {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -161,8 +161,8 @@
   animation-duration: 12s;
 }
 .ten {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -177,8 +177,8 @@
 }
 
 .two {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -186,8 +186,8 @@
   animation-duration: 10s;
 }
 .three {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -195,8 +195,8 @@
   animation-duration: 9s;
 }
 .four {
-    width: 20px;
-  height: 20px;
+    width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
@@ -204,8 +204,8 @@
   animation-duration: 8s;
 }
 .five {
-    width: 20px;
-  height: 20px;
+    width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: red;
   position: relative;
