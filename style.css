@@ -6,7 +6,8 @@
 #one{
     width:100%;
     height:100vh;
-    background-color: rgb(0, 0, 0);
+    background-image: url('https://i.gifer.com/4A5.gif');
+     
     /* display: none; */
     display: flex;
     flex-direction: column;
@@ -17,19 +18,17 @@
 }
 
 #center{
-    color: white;
-    background-color: red;
-    
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(255, 252, 75);
     font-size: 20px;
-    width: 400px;
-    height: 200px;
+    
+    height: 0px;
+    width: 0px;
     text-align: center;
-    padding: 30px;
+    /* padding: 30px; */
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 #main{
@@ -42,14 +41,14 @@
 }
 #two{
     width:100%;
-    height:698px;
+    height:100vh;
     background-color: rgb(25, 0, 255);
-    background-image: url('https://media.istockphoto.com/id/2201426639/photo/scenic-spring-landscape-with-blue-sky-with-sunlight-and-spring-flowers-crocus-blossoms-on.jpg?s=1024x1024&w=is&k=20&c=xF-c_MX9zs6MJ371es7Z1E6oYgYJ7uPUv9U_IRjdchE=');
-    background-repeat: no-repeat;
+    background-image: url('https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   
-    /* color: ; */
+    /* color: ; */ 
     display: none;
 }
 #box{
@@ -74,7 +73,8 @@
 
 }
 #blue:hover{
-    background-color: rgb(100, 96, 96);
+    background-color: aqua;
+    color: black;
 }
 #three{
     width:100%;
@@ -83,7 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.unsplash.com/photo-1491466424936-e304919aada7?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -9,7 +9,7 @@ var text=document.getElementById("text")
 
 console.log(blue);
 
-three.style.height="700px"
+three.style.height="100vh"
 
 btn.addEventListener("click",()=>{
  
@@ -31,7 +31,24 @@ blue.addEventListener("click",()=>{
     text.style.display="none"
     setTimeout(() => {
         main.style.display="none"
-        center.style.display="flex"
-    }, 10000);
+        center.style.transition="all ease-in 0.5s"
+        
+        
+      }, 10000);
+      setTimeout(() => {
+          
+          center.style.height="200px"
+          center.style.width="350px"        
+          
+          setTimeout(() => {
+            
+            center.style.padding="30px"
+             
+              center.innerText="Congratulations on finishing your papers! 🎉 All your hard work and late nights have paid off. Now it’s time to relax, recharge, and enjoy some well-deserved rest. You did it!"
+               
+            
+          }, 1000);
+          
+      }, 11000);
     
 })
