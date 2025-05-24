@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#one{
+    width:100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
+
+#center{
+    color: white;
+    background-color: red;
+    
+    font-size: 20px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#main{
+     width:100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+#two{
+    width:100%;
+    height:698px;
+    background-color: rgb(25, 0, 255);
+    background-image: url('https://media.istockphoto.com/id/2201426639/photo/scenic-spring-landscape-with-blue-sky-with-sunlight-and-spring-flowers-crocus-blossoms-on.jpg?s=1024x1024&w=is&k=20&c=xF-c_MX9zs6MJ371es7Z1E6oYgYJ7uPUv9U_IRjdchE=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    /* color: ; */
+    display: none;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+}
+#blue{
+    background-color: black;
+    width: 10%;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#blue:hover{
+    background-color: rgb(100, 96, 96);
+}
+#three{
+    width:100%;
+    height:100vh;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: none; */
+
+}
+
+#three button{
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    /* background-color: rgb(255, 255, 255);
+     */
+      background-color: rgb(4, 11, 110);
+    color: rgb(255, 255, 255);
+    transition: all ease-in 0.5s;
+    border: none;
+    padding: 0px 10px;
+    
+    
+}
+#three button:hover{
+    background-color: rgb(4, 11, 110);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+
+
+.one {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.six {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 11s;
+}
+.seven {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+}
+.eight {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 2s;
+}
+.nine {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 12s;
+}
+.ten {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 13s;
+}
+#one:hover{
+
+
+    
+    
+}
+
+.two {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 10s;
+}
+.three {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 9s;
+}
+.four {
+    width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example-2;
+  animation-duration: 8s;
+}
+.five {
+    width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:0px; top:650px;}
+  50%  {background-color:blue; left:0px; top:0px;}
+  75%  {background-color:green; left:0px; top:650px;}
+  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:rgb(0, 255, 191); left:0px; top:0px;}
+  25%  {background-color:rgb(0, 255, 0); left:0px; top:650px;}
+  50%  {background-color:rgb(168, 168, 255); left:0px; top:0px;}
+  75%  {background-color:rgb(255, 248, 143); left:0px; top:650px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+@keyframes example-2{
+  0%   {background-color:rgb(20, 0, 92); left:0px; top:0px;}
+  25%  {background-color:rgb(247, 10, 255); left:0px; top:650px;}
+  50%  {background-color:rgb(255, 136, 0); left:0px; top:0px;}
+  75%  {background-color:rgb(255, 17, 17); left:0px; top:650px;}
+  100% {background-color:rgb(255, 255, 255); left:0px; top:650px;}
+}
